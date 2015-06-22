@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		19DD5EB81B36F19900920B40 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 19DD5EB71B36F19900920B40 /* main.m */; };
+		19DD5EBB1B36F19900920B40 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 19DD5EBA1B36F19900920B40 /* AppDelegate.m */; };
+		19DD5EBE1B36F19900920B40 /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 19DD5EBD1B36F19900920B40 /* GameScene.m */; };
+		19DD5EC01B36F19900920B40 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 19DD5EBF1B36F19900920B40 /* GameScene.sks */; };
+		19DD5EC31B36F19900920B40 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19DD5EC21B36F19900920B40 /* GameViewController.m */; };
+		19DD5EC61B36F19900920B40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19DD5EC41B36F19900920B40 /* Main.storyboard */; };
+		19DD5EC81B36F19900920B40 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19DD5EC71B36F19900920B40 /* Images.xcassets */; };
+		19DD5ECB1B36F19900920B40 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 19DD5EC91B36F19900920B40 /* LaunchScreen.xib */; };
+		19DD5ED71B36F19900920B40 /* TestSpringActionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 19DD5ED61B36F19900920B40 /* TestSpringActionTests.m */; };
+		19E319D31B37D5BB006015E7 /* SKAction+Spring.m in Sources */ = {isa = PBXBuildFile; fileRef = 19E319CE1B37D5BB006015E7 /* SKAction+Spring.m */; };
+		19E319D41B37D5BB006015E7 /* SKNode+Spring.m in Sources */ = {isa = PBXBuildFile; fileRef = 19E319D01B37D5BB006015E7 /* SKNode+Spring.m */; };
+		19E319D51B37D5BB006015E7 /* SKSpriteNode+Spring.m in Sources */ = {isa = PBXBuildFile; fileRef = 19E319D21B37D5BB006015E7 /* SKSpriteNode+Spring.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		19DD5ED11B36F19900920B40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19DD5EAA1B36F19900920B40 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19DD5EB11B36F19900920B40;
+			remoteInfo = TestSpringAction;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		19DD5EB21B36F19900920B40 /* TestSpringAction.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestSpringAction.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		19DD5EB61B36F19900920B40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19DD5EB71B36F19900920B40 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		19DD5EB91B36F19900920B40 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		19DD5EBA1B36F19900920B40 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		19DD5EBC1B36F19900920B40 /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		19DD5EBD1B36F19900920B40 /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		19DD5EBF1B36F19900920B40 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		19DD5EC11B36F19900920B40 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		19DD5EC21B36F19900920B40 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		19DD5EC51B36F19900920B40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		19DD5EC71B36F19900920B40 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		19DD5ECA1B36F19900920B40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		19DD5ED01B36F19900920B40 /* TestSpringActionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestSpringActionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		19DD5ED51B36F19900920B40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19DD5ED61B36F19900920B40 /* TestSpringActionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestSpringActionTests.m; sourceTree = "<group>"; };
+		19E319CD1B37D5BB006015E7 /* SKAction+Spring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "SKAction+Spring.h"; path = "../SpringAction/SKAction+Spring.h"; sourceTree = "<group>"; };
+		19E319CE1B37D5BB006015E7 /* SKAction+Spring.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "SKAction+Spring.m"; path = "../SpringAction/SKAction+Spring.m"; sourceTree = "<group>"; };
+		19E319CF1B37D5BB006015E7 /* SKNode+Spring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "SKNode+Spring.h"; path = "../SpringAction/SKNode+Spring.h"; sourceTree = "<group>"; };
+		19E319D01B37D5BB006015E7 /* SKNode+Spring.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "SKNode+Spring.m"; path = "../SpringAction/SKNode+Spring.m"; sourceTree = "<group>"; };
+		19E319D11B37D5BB006015E7 /* SKSpriteNode+Spring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "SKSpriteNode+Spring.h"; path = "../SpringAction/SKSpriteNode+Spring.h"; sourceTree = "<group>"; };
+		19E319D21B37D5BB006015E7 /* SKSpriteNode+Spring.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "SKSpriteNode+Spring.m"; path = "../SpringAction/SKSpriteNode+Spring.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		19DD5EAF1B36F19900920B40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19DD5ECD1B36F19900920B40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19DD5EA91B36F19900920B40 = {
+			isa = PBXGroup;
+			children = (
+				19DD5EE01B36F1EC00920B40 /* SpringAction */,
+				19DD5EB41B36F19900920B40 /* TestSpringAction */,
+				19DD5ED31B36F19900920B40 /* TestSpringActionTests */,
+				19DD5EB31B36F19900920B40 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		19DD5EB31B36F19900920B40 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				19DD5EB21B36F19900920B40 /* TestSpringAction.app */,
+				19DD5ED01B36F19900920B40 /* TestSpringActionTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		19DD5EB41B36F19900920B40 /* TestSpringAction */ = {
+			isa = PBXGroup;
+			children = (
+				19DD5EB91B36F19900920B40 /* AppDelegate.h */,
+				19DD5EBA1B36F19900920B40 /* AppDelegate.m */,
+				19DD5EBC1B36F19900920B40 /* GameScene.h */,
+				19DD5EBD1B36F19900920B40 /* GameScene.m */,
+				19DD5EBF1B36F19900920B40 /* GameScene.sks */,
+				19DD5EC11B36F19900920B40 /* GameViewController.h */,
+				19DD5EC21B36F19900920B40 /* GameViewController.m */,
+				19DD5EC41B36F19900920B40 /* Main.storyboard */,
+				19DD5EC71B36F19900920B40 /* Images.xcassets */,
+				19DD5EC91B36F19900920B40 /* LaunchScreen.xib */,
+				19DD5EB51B36F19900920B40 /* Supporting Files */,
+			);
+			path = TestSpringAction;
+			sourceTree = "<group>";
+		};
+		19DD5EB51B36F19900920B40 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				19DD5EB61B36F19900920B40 /* Info.plist */,
+				19DD5EB71B36F19900920B40 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		19DD5ED31B36F19900920B40 /* TestSpringActionTests */ = {
+			isa = PBXGroup;
+			children = (
+				19DD5ED61B36F19900920B40 /* TestSpringActionTests.m */,
+				19DD5ED41B36F19900920B40 /* Supporting Files */,
+			);
+			path = TestSpringActionTests;
+			sourceTree = "<group>";
+		};
+		19DD5ED41B36F19900920B40 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				19DD5ED51B36F19900920B40 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		19DD5EE01B36F1EC00920B40 /* SpringAction */ = {
+			isa = PBXGroup;
+			children = (
+				19E319CD1B37D5BB006015E7 /* SKAction+Spring.h */,
+				19E319CE1B37D5BB006015E7 /* SKAction+Spring.m */,
+				19E319CF1B37D5BB006015E7 /* SKNode+Spring.h */,
+				19E319D01B37D5BB006015E7 /* SKNode+Spring.m */,
+				19E319D11B37D5BB006015E7 /* SKSpriteNode+Spring.h */,
+				19E319D21B37D5BB006015E7 /* SKSpriteNode+Spring.m */,
+			);
+			name = SpringAction;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		19DD5EB11B36F19900920B40 /* TestSpringAction */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19DD5EDA1B36F19900920B40 /* Build configuration list for PBXNativeTarget "TestSpringAction" */;
+			buildPhases = (
+				19DD5EAE1B36F19900920B40 /* Sources */,
+				19DD5EAF1B36F19900920B40 /* Frameworks */,
+				19DD5EB01B36F19900920B40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestSpringAction;
+			productName = TestSpringAction;
+			productReference = 19DD5EB21B36F19900920B40 /* TestSpringAction.app */;
+			productType = "com.apple.product-type.application";
+		};
+		19DD5ECF1B36F19900920B40 /* TestSpringActionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19DD5EDD1B36F19900920B40 /* Build configuration list for PBXNativeTarget "TestSpringActionTests" */;
+			buildPhases = (
+				19DD5ECC1B36F19900920B40 /* Sources */,
+				19DD5ECD1B36F19900920B40 /* Frameworks */,
+				19DD5ECE1B36F19900920B40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				19DD5ED21B36F19900920B40 /* PBXTargetDependency */,
+			);
+			name = TestSpringActionTests;
+			productName = TestSpringActionTests;
+			productReference = 19DD5ED01B36F19900920B40 /* TestSpringActionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		19DD5EAA1B36F19900920B40 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Benny Khoo";
+				TargetAttributes = {
+					19DD5EB11B36F19900920B40 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					19DD5ECF1B36F19900920B40 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 19DD5EB11B36F19900920B40;
+					};
+				};
+			};
+			buildConfigurationList = 19DD5EAD1B36F19900920B40 /* Build configuration list for PBXProject "TestSpringAction" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 19DD5EA91B36F19900920B40;
+			productRefGroup = 19DD5EB31B36F19900920B40 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				19DD5EB11B36F19900920B40 /* TestSpringAction */,
+				19DD5ECF1B36F19900920B40 /* TestSpringActionTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		19DD5EB01B36F19900920B40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19DD5ECB1B36F19900920B40 /* LaunchScreen.xib in Resources */,
+				19DD5EC81B36F19900920B40 /* Images.xcassets in Resources */,
+				19DD5EC01B36F19900920B40 /* GameScene.sks in Resources */,
+				19DD5EC61B36F19900920B40 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19DD5ECE1B36F19900920B40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		19DD5EAE1B36F19900920B40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19E319D51B37D5BB006015E7 /* SKSpriteNode+Spring.m in Sources */,
+				19DD5EC31B36F19900920B40 /* GameViewController.m in Sources */,
+				19DD5EBB1B36F19900920B40 /* AppDelegate.m in Sources */,
+				19DD5EBE1B36F19900920B40 /* GameScene.m in Sources */,
+				19E319D31B37D5BB006015E7 /* SKAction+Spring.m in Sources */,
+				19E319D41B37D5BB006015E7 /* SKNode+Spring.m in Sources */,
+				19DD5EB81B36F19900920B40 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19DD5ECC1B36F19900920B40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19DD5ED71B36F19900920B40 /* TestSpringActionTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		19DD5ED21B36F19900920B40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 19DD5EB11B36F19900920B40 /* TestSpringAction */;
+			targetProxy = 19DD5ED11B36F19900920B40 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		19DD5EC41B36F19900920B40 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19DD5EC51B36F19900920B40 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		19DD5EC91B36F19900920B40 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19DD5ECA1B36F19900920B40 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		19DD5ED81B36F19900920B40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		19DD5ED91B36F19900920B40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		19DD5EDB1B36F19900920B40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TestSpringAction/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		19DD5EDC1B36F19900920B40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TestSpringAction/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		19DD5EDE1B36F19900920B40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TestSpringActionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestSpringAction.app/TestSpringAction";
+			};
+			name = Debug;
+		};
+		19DD5EDF1B36F19900920B40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TestSpringActionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestSpringAction.app/TestSpringAction";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		19DD5EAD1B36F19900920B40 /* Build configuration list for PBXProject "TestSpringAction" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19DD5ED81B36F19900920B40 /* Debug */,
+				19DD5ED91B36F19900920B40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19DD5EDA1B36F19900920B40 /* Build configuration list for PBXNativeTarget "TestSpringAction" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19DD5EDB1B36F19900920B40 /* Debug */,
+				19DD5EDC1B36F19900920B40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19DD5EDD1B36F19900920B40 /* Build configuration list for PBXNativeTarget "TestSpringActionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19DD5EDE1B36F19900920B40 /* Debug */,
+				19DD5EDF1B36F19900920B40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 19DD5EAA1B36F19900920B40 /* Project object */;
+}
