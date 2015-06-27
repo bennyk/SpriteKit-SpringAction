@@ -161,7 +161,7 @@
 + (SKAction *)animateKeyPath:(NSString *)keyPath byValue:(id)initialDistance toValue:(id)finalValue                    duration:(NSTimeInterval)duration delay:(NSTimeInterval)delay usingSpringWithDamping:(CGFloat)dampingRatio initialSpringVelocity:(CGFloat)velocity
 {
     __block CGFloat naturalFrequency, dampedFrequency, t1, t2, s1, s2, d1;
-    __block BOOL init;
+    __block BOOL init = NO;
         
     SKAction *animation = [SKAction customActionWithDuration:duration actionBlock:^(SKNode *node, CGFloat elapsedTime) {
         
